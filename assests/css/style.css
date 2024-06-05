@@ -1,7 +1,7 @@
 .head{
     color: red;
     font-family: 'Courier New', Courier, monospace;
-    background-image: url("./images/app\ bar.png");
+    background-image: url("../images/app\ bar.png");
     background-size: cover;
 }
 
