@@ -1,7 +1,6 @@
 body{
-    max-width: 90rem;
-    background-color: black;
-    margin:auto;
+    max-width: 100%;
+    overflow: hidden;
     
 }
 
@@ -18,20 +17,21 @@ body{
 .head {background-color: rgb(255, 255, 255);
     overflow: none;
     height: 50px;
-    width: 50%;
+    width: 40%;
     position: absolute;
-    right: 15px;
+    right: 25px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: space-between;
   }
 
 .head-button{
+    
     margin-left: 10px;
     background: linear-gradient(to bottom, #190be7, #0ce2f1 50%, #ffffff 50%);    color: #000000;
     background-size: 100% 200%;
     border: none;
-    padding: 5px 10px;
+    padding: 2px 40px;
     cursor: pointer;
     border-radius: 20%;
     color: #ffffff;
@@ -39,4 +39,79 @@ body{
 }
 head-button:hover {
     background-position: 0% 100%;
+  }
+
+  .card1{
+    position: absolute;
+    top: 10px;
+    left: 1%;
+    height: 85%;
+    width: 53%;
+    background: linear-gradient(to bottom, #190be7, #0ce2f1 50%, #ffffff 50%);    color: #000000;
+    border-top-right-radius: 30%;
+    background-size: 100% 200%;
+  }
+
+  .card2{
+    position: absolute;
+    top: 60px;
+    right: -12%;
+    height: 95%;
+    width: 55%;
+    background-image: url("../assets/images/9e7730605ddb469c14a53fa7a925f670!_!5efa45f3e4ce3801b26349988b74b909\ 1.png");
+    border-top-left-radius: 30%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+
+  }
+  
+  .text{
+    position: absolute;
+    right: 18%;
+    top: 25%;
+    font-size: 50px;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+    font-weight: 20%;
+    color: #ffffff;
+    
+  }
+  .text1{
+    position: absolute;
+    right: 18%;
+    top: 32%;
+    font-size: 50px;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+    font-weight: 20%;
+    color: #ffffff;
+    
+  }
+  .text2{
+    position: absolute;
+    right: 18%;
+    top: 40%;
+    font-size: 50px;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+    font-weight: 20%;
+    color: #ffffff;
+    
+  }
+
+  .text3{
+    position: absolute;
+    right: 42%;
+    top: 48%;
+    font-size: 50px;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+    color: #ffffff;
+   
+    
+  }
+  .Register{
+    position:absolute;
+    top:90%;
+    left:20%;
+    background-color: black;
+    padding: 20px 75px;
+    border-radius: 20px;
+    color: #ffffff;
   }
