@@ -3,19 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./assests/css/style.css">
     <title>Confrence</title>
+    <link href="./tailwindcss/output.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <section class="container">
-        <header class="head">
-           <button class="head-button">Home</button>
-           <button class="head-button">About Us</button>
-           <button class="head-button">Author's Desk</button>
-           <button class="head-button">Reach Us</button>
-        </header>
-    </section>
+<body class="">
+   <header class=" w-full text-end">
+    <nav class=" w-full flex justify-between gap-8">
+        <div class=" h-[75rem] w-[48%]">
+            <div class="  bg-gradient-to-t from-cyan-400 via-blue-700 to-cyan-500 h-[52rem] rounded-tr-[35%] ">
+                <div class="absolute top-[80px] left-[14rem] ">
+                    <img src="./assests/images/ICARITMS 1.png" alt="Logo" class="bg-white p-3 h-[100px] ">
+                </div>
+            </div>
+            <div class=" my-8 absolute left-[14rem]">
+                <button class=" bg-black text-white px-20 py-4 rounded-xl ">Register Here</button>
+            </div>
+        </div>
+        <div class=" h-[75rem] w-[48%]">
+            <div class=" flex justify-between h-[80px] p-5 ">
+                <div onclick="" class=" hover:cursor-pointer bg-gradient-to-r from-cyan-400 via-blue-700 to-cyan-500 hover:from-pink-500 hover:to-yellow-500 px-10 py-2 rounded-xl font-extrabold text-white  ">Home</div>
+                <div onclick="" class="hover:cursor-pointer bg-gradient-to-t from-cyan-400 via-blue-700 to-cyan-500 hover:from-pink-500 hover:to-yellow-500 px-10 py-2 rounded-xl font-extrabold text-white ">About Us</div>
+                <div onclick="" class="hover:cursor-pointer bg-gradient-to-b from-cyan-400 via-blue-700 to-cyan-500 hover:from-pink-500 hover:to-yellow-500 px-10 py-2 rounded-xl font-extrabold text-white ">Author's Desk</div>
+                <div onclick="" class="hover:cursor-pointer bg-gradient-to-l from-cyan-400 via-blue-700 to-cyan-500 hover:from-pink-500 hover:to-yellow-500 px-10 py-2 rounded-xl font-extrabold text-white ">Reach Us</div>
+            </div>
+            <div class=" ">
+                <img src="assests/images/webconf.png" alt="Conference" class=" h-[55rem] rounded-tl-[35%] object-cover ">
+            </div>
+        </div>
+    </nav>
+    
+   </header>
+
 </body>
 </html>
-
