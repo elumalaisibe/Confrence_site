@@ -1,0 +1,7 @@
+.circle{
+    border-radius: 51% 49% 100% 0% / 0% 47% 53% 100%   ;
+    width: 380px;
+    height: 344px;
+    border-top-left-radius: 0.75rem;
+    border-bottom-left-radius: 0.75rem 
+}
