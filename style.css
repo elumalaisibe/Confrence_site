@@ -1,7 +1,7 @@
 .circle{
     border-radius: 51% 49% 100% 0% / 0% 47% 53% 100%   ;
-    width: 380px;
-    height: 344px;
+    /* width: 380px;
+    height: 344px; */
     border-top-left-radius: 0.75rem;
     border-bottom-left-radius: 0.75rem 
 }
@@ -12,4 +12,9 @@
     height: 250px;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem 
+}
+.ear{
+    background-image: url('./assests/images/earlierconfrences/conf.png');
+    width: 100%;
+    height: 100% ;
 }
