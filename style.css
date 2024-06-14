@@ -5,3 +5,11 @@
     border-top-left-radius: 0.75rem;
     border-bottom-left-radius: 0.75rem 
 }
+
+.circle1{
+    border-radius: 50% 50% 0% 100% / 100% 100% 0% 0% ;
+    width: 100%;
+    height: 250px;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem 
+}
