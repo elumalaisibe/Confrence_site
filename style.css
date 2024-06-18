@@ -32,3 +32,58 @@ input[type="file"]::file-selector-button {
   input[type="file"]::file-selector-button:hover {
     cursor: pointer;
   }
+
+  .dropdown button{
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));;
+    --tw-gradient-from: #22d3ee var(--tw-gradient-from-position);
+    --tw-gradient-to: rgb(34 211 238 / 0) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+    --tw-gradient-to: rgb(29 78 216 / 0)  var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from), #1d4ed8 var(--tw-gradient-via-position), var(--tw-gradient-to);
+    --tw-gradient-to: #06b6d4 var(--tw-gradient-to-position);
+    padding-left: 2.5rem /* 40px */;
+    padding-right: 2.5rem /* 40px */;
+    padding-top: 0.5rem /* 8px */;
+    padding-bottom: 0.5rem /* 8px */;
+    border-radius: 0.75rem /* 12px */;
+    font-weight: 800;
+    font-size: 1.25rem /* 20px */;
+    line-height: 1.75rem /* 28px */;
+    text-wrap: nowrap;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity)) /* #ffffff */;
+  }
+
+  .dropdown{
+    display: inline-block;
+  }
+
+  .dropdown a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    /* padding-left: 2.5rem ;
+    padding-right: 2.5rem ;
+    padding-top: 0.5rem ;
+    padding-bottom: 0.5rem ;     */
+  }
+
+  .dropdown .content{
+    display: none;
+    position:absolute;
+    /* background-image: linear-gradient(to right, var(--tw-gradient-stops));;
+    --tw-gradient-from: #22d3ee var(--tw-gradient-from-position);
+    --tw-gradient-to: rgb(34 211 238 / 0) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+    --tw-gradient-to: rgb(29 78 216 / 0)  var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from), #1d4ed8 var(--tw-gradient-via-position), var(--tw-gradient-to);
+    --tw-gradient-to: #06b6d4 var(--tw-gradient-to-position); */
+    /* width: 180px; */
+    box-shadow: 2px 2px 5px rgba(54, 54, 54, 0.452);
+  }
+
+  .dropdown:hover .content{
+    display: block;
+  }
+
+ 
